@@ -12,6 +12,11 @@ or
 python lookup_ri.py 59-52-4 5ms
 ```
 
+## Dependency
+```
+pip install bs4 numpy 
+```
+
 ## License
 
 MIT © 
