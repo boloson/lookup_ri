@@ -1,6 +1,6 @@
 # Lookup RI
 
-> Python script to scrape retention index by CAS number 
+> Python script to scrape retention index from NIST webbook by CAS number 
 
 ## Usage
 
