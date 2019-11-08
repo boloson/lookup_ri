@@ -47,7 +47,7 @@ def get_ri(cas_number, column_type):
 
   RIs = []
   if column_type == '5ms':
-    reg = '(-5)[^0-9]'
+    reg = '-5\Z|-5[^0-9]'
   elif column_type == 'wax':
     reg = '(wax)'
   for row in exp_rows:
